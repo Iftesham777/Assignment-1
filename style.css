@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.font-open-sans{
+    font-family: "open sans","sans serif" ;
+    font-optical-sizing: auto;
+}
+.btn{
+    background-color: green;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.logo h2{
+    font-size: 45px;
+}
+.color-green{
+    color: green;
+    font-weight: bold;
+}
+header{
+    background-color:white
+    padding-top: 50px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex; 
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style-type:none;
+    gap: 45px;
+    align-items: center;
+}
+.menu a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+#banner{
+    /* margin: 70px 120px 130px; */
+    justify-content: space-between; 
+    align-items: center;
+    padding: 200px 10%;
+    text-align: center;
+    background-image: url("./assets/hero-bg.png");
+}
+
+.banner-conten h6{
+    background-color:white ;
+    border-radius: 100px;
+    width: 229px;
+}
+/* .Open{
+    margin-top: 0%;
+} */
+ .info{
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 14px;
+    color: green;
+    margin: 20px;
+
+ }
+ #banner .banner-conten h1{
+    color: #FFFFFF;
+    font-size: 42px;
+    margin: 12px;
+
+
+ }
+ #banner .banner-conten h1 span{
+    color: green;
+ }
+ #banner .banner-conten P{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+
+ }
+ .banner-conten button{
+    margin: 0 8px;
+    padding: 10px 12px 10px 12px;
+    font-size: 16px;
+    background-color: green;
+    border: none;
+    color: #FFFFFF;
+
+ }
+  .banner-conten button .btn{
+    background: none;
+ }
+
+
+ .problem{
+    padding: 80px 8%;
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ 
+.sub{
+    margin: 12px 0  40px;
+    
+
+
+}
+.card-connect{
+    display: flex;
+    gap: 20px;
+
+}
+.card{
+    padding: 24px;
+    border: 1px solid salmon; 
+    border-radius: 10px;
+    width: 322px;
+    height: 300px;
+    margin: 20px 20px;
+   
+}
+.card-image{
+    margin-bottom: 30px;
+}
+
+.banner{
+    display: flex; 
+    align-items: center;
+    gap: 50px;
+    margin: 0 100px;
+}
+
+.banner p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.banner h1{
+    margin-top: 10px;
+}
+
+.line-item{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.skill-content{
+    text-align: center;
+    border: solid 1px red;
+    margin: 0 150px 50px 150px;
+    background-color: #F7F6F2;
+    padding: 40px;
+}
+.skill-content h1{
+    font-size: bold;
+    color: black;
+    gap: 16px;
+    height: 48px;
+}
+.skill-content p{
+    color: #627382;
+    gap: 10px;
+    height: 50px;
+}
+.but{
+    height: 52px;
+    width: 200px;
+    gap: 10px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #469165;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.foot{
+    text-align: center;
+    background-color: #001931;
+    height: 450px;
+}
+.foot-contant{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 300px;
+    align-items: center;
+}
+.fi{
+    margin-top: 50px;
+}
+
+.foot h6{
+    margin-top: 220px;
+    font-size: 14px;
+    color: white;
+}
